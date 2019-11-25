@@ -2,7 +2,7 @@
 
 This project is a skeleton application used to create [Essential JS 2](https://www.syncfusion.com/products/essential-js2) web application.
 
-## Create an typescript application
+## Create a typescript application
 
 To create a typescript application, refer to [`getting started`](https://ej2.syncfusion.com/documentation/drop-down-list/getting-started/) document.
 
