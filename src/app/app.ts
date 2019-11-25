@@ -16,8 +16,8 @@ let dropDownListObject: DropDownList = new DropDownList({
         if (e && e.itemData.value) {
             let ajax: Ajax = new Ajax('assets/styles/' + e.itemData.value + '.css', 'GET', true);
             ajax.send().then((result: any) => {
-              let style: HTMLCollectionOf<HTMLStyleElement> = document.getElementsByTagName('style') as HTMLCollectionOf<HTMLStyleElement>;
-              style[0].innerHTML = `/*${e.itemData.value}*/` + result;
+              let styleTag = document.getElementById('theme');
+              styleTag.innerHTML=`/*${e.itemData.value}*/` + result;
             });
           }
     },
