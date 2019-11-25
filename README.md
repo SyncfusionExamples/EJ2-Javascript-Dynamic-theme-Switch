@@ -4,7 +4,7 @@ This project is a skeleton application used to create [Essential JS 2](https://w
 
 ## Create an typescript application
 
-To create a typescript application, refer to [`getting started`]() document.
+To create a typescript application, refer to [`getting started`](https://ej2.syncfusion.com/documentation/drop-down-list/getting-started/) document.
 
 ## Add Different Themes for Dynamic Theme Change
 
