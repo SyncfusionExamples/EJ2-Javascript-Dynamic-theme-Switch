@@ -2,18 +2,9 @@
 
 This project is a skeleton application used to create [Essential JS 2](https://www.syncfusion.com/products/essential-js2) web application.
 
-## Getting Started
-
-To get started you need to clone the `ej2-quickstart` repository and navigate to `ej2-quickstart` location.
-
-```
-git clone https://github.com/syncfusion/ej2-quickstart.git quickstart
-cd quickstart
-```
-
 ## Create an typescript application
 
-To create an angular application, refer to [`getting started`]() document.
+To create a typescript application, refer to [`getting started`]() document.
 
 ## Add Different Themes for Dynamic Theme Change
 
