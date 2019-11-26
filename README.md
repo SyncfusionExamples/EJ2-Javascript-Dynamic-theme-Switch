@@ -62,8 +62,6 @@ Add the below code in `app.ts` file.
     //set the data to dataSource property
     dataSource: themes,
     select: function(e) {
-        debugger
-        console.log(e);
         if (e && e.itemData.value) {
             let ajax: Ajax = new Ajax('assets/styles/' + e.itemData.value + '.css', 'GET', true);
             ajax.send().then((result: any) => {
